@@ -1,0 +1,66 @@
+input:focus {
+  outline: 0px !important;
+}
+
+input {
+  padding: 0;
+}
+
+input:required {
+  box-shadow: none;
+}
+
+form {
+  width: 50vw;
+  max-width: 450px;
+  height: 50vh;
+  margin: 50px auto;
+  border: 1px solid #d6d6d6;
+  padding: 90px 50px 0 50px;
+  color: #5B5B5B;
+  box-shadow: -18px 19px 31px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.radio-button-section {
+  flex-direction: row;
+}
+
+.radio-button {
+  height: auto;
+}
+
+.warn {
+  color: #FF7575;
+}
+
+input {
+  border: 1px solid #ADADAD;
+  height: 33px;
+  border-radius: 5px;
+  padding: 0 15px;
+  color: #7D7D7D;
+  margin-top: 3px;
+}
+
+
+button {
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  position: absolute;
+  right: 50px;
+  bottom: 50px;
+  height: 35px;
+  width: 75px;
+  background: #ADADAD;
+  color: #ffffff;
+  font-size: 15px;
+}
